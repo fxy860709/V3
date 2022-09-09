@@ -1,0 +1,12 @@
+合约名称：creditEvidence
+版本号：v1.0
+合约语言：rust
+
+
+合约方法：
+存证：saveEvidence
+参数："{\"factHash\":\"1234567890\",\"factType\":\"certs\",\"factJson\":\"test12345\"}"
+
+
+溯源：verifyEvidence
+参数："{\"factHash\":\"1234567890\",\"factType\":\"certs\"}"

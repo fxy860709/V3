@@ -1,0 +1,4 @@
+docker run -d -it -e ENV_ENABLE_UDS=true --name=DOCKERVM-node1-chain1 -v /home/projects/test/chainmaker-go/build/release/chainmaker-v2.2.1-node1/data/node1/docker-go/chain1:/mount --privileged chainmakerofficial/chainmaker-vm-docker-go:v2.2.1 
+docker run -d -it -e ENV_ENABLE_UDS=true --name=DOCKERVM-node2-chain1 -v /home/projects/test/chainmaker-go/build/release/chainmaker-v2.2.1-node2/data/node2/docker-go/chain1:/mount --privileged chainmakerofficial/chainmaker-vm-docker-go:v2.2.1 
+docker run -d -it -e ENV_ENABLE_UDS=true --name=DOCKERVM-node3-chain1 -v /home/projects/test/chainmaker-go/build/release/chainmaker-v2.2.1-node3/data/node3/docker-go/chain1:/mount --privileged chainmakerofficial/chainmaker-vm-docker-go:v2.2.1
+docker run -d -it -e ENV_ENABLE_UDS=true --name=DOCKERVM-node4-chain1 -v /home/projects/test/chainmaker-go/build/release/chainmaker-v2.2.1-node4/data/node4/docker-go/chain1:/mount --privileged chainmakerofficial/chainmaker-vm-docker-go:v2.2.1
